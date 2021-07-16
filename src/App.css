@@ -1,0 +1,46 @@
+@@font-face{
+  font-family: myfont;
+  src:url('./Font/CircularStd.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myfont;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f8fa;
+  align-items: center;
+}
+
+
+button:hover{
+      background-color: #ffff;
+      color:#f04037;
+}
+
+.error{
+  position: relative;
+  color: red;
+  font-size: .7em;
+}
+
+.myform{
+  margin-top: 20vh;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffff;
+  box-shadow: 0 20px 61px 0 rgba(65, 62, 101, 0.14);
+  border-radius: 10px;
+  }
+
+
